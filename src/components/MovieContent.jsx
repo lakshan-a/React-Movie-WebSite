@@ -1,6 +1,7 @@
 import React from 'react'
 import './movieContent.css';
 import titleImg from '../images/transformer-title.png';
+import Button from './Button';
 
 
 function MovieContent() {
@@ -22,7 +23,18 @@ function MovieContent() {
             perspiciatis nobis labore quis eum ducimus, fugiat commodi 
             magnam? Numquam, cum voluptatem.
         </p>
-        <div className="button">Button</div>
+        <div className="button">
+          <Button 
+            icon={<ion-icon name="bookmark-outline"></ion-icon>} 
+            name='book' 
+            color='#ff3700' 
+            bgColor='#fff'
+          />
+          <Button 
+            icon={<ion-icon name="add-outline"></ion-icon>} 
+            name='My List' 
+          />
+        </div>
     </div>
   )
 }
