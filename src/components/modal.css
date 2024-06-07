@@ -1,14 +1,19 @@
 .movieModal{
     position: absolute;
     content: '';
-    top: 125px;
+    /* top: 125px;
     left: 100px;
     right: 100px;
-    bottom: 0;
+    bottom: 0; */
+    top: 80px;
+    bottom: 80px;
+    left: 200px;
+    right: 200px;
+
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
-    z-index: 1500;
+    z-index: 15000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +23,10 @@
 }
 
 .movieModal iframe{
-    max-width: 1280px;
-    max-height: 720px;
+    /* max-width: 1000px;
+    max-height: 570px; */
+    max-width: 750px;
+    max-height: 420px;
 }
 
 .movieModal .modalClose {

@@ -22,8 +22,8 @@
 .banner .playBtn {
     position: relative;
     color: #fff;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     transition: 1s;
     z-index: 1000;
     background: transparent;
@@ -36,7 +36,8 @@
 }
 
 .banner .playBtn ion-icon {
-    font-size: 4rem;
+    font-size: 2rem;
+    margin-left: 5px;
     color: var(--primary);
     cursor: pointer;
 }
@@ -49,9 +50,9 @@
     bottom: -5px;
     content: '';
     background: transparent;
-    border: 10px solid #fff;
+    border: 5px solid #fff;
     border-radius: 50%;
-    animation: button 1s linear infinite;
+    /* animation: button 1s linear infinite; */
 }
 
 @keyframes button {
