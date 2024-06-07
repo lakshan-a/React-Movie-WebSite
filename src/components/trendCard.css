@@ -1,0 +1,28 @@
+.trend {
+    position: relative;
+}
+
+.trend a{
+    position: relative;
+    text-decoration: none;
+    background: var(--primary);
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: 0.3s;
+}
+
+.trend a ion-icon{
+    font-size: 1rem;
+}
+
+.trend a:hover {
+    background: #191919;
+}

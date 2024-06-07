@@ -28,7 +28,7 @@ function Trend() {
             <div className="row">
                 <h4 className="section-title">Coming Soon</h4>
             </div>
-            <div className="row">
+            <div className="row mt-4">
                 <Swiper
                     breakpoints={{
                         320: {
