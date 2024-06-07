@@ -54,10 +54,24 @@ function Schedule() {
 
     useEffect(() => {
         setMovies(data);
-    })
+    }, [data])
 
     const handleFilterMovies = category => {
-        console.log(category);
+        setFilters(
+            filters.map(filter => {
+                filter.active = false;
+                if(filter.name === category){
+                    filter.active = true ;
+                }
+                return filter;
+            })
+        );
+
+        if(category === 'All'){
+            setMovies(data)
+            return;
+        }
+        setMovies(data.filter(movie => movie.category === category));
     };
 
   return (
