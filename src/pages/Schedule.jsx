@@ -3,6 +3,40 @@ import './schedule.css';
 import Card from '../components/Card';
 
 function Schedule() {
+
+    const filterList = [
+        {
+            _id: 1,
+            name: 'All',
+            active: true,
+        },
+        {
+            _id: 2,
+            name: 'Romance',
+            active: false,
+        },
+        {
+            _id: 3,
+            name: 'Action',
+            active: false,
+        },
+        {
+            _id: 4,
+            name: 'Thriller',
+            active: false,
+        },
+        {
+            _id: 5,
+            name: 'Horror',
+            active: false,
+        },
+        {
+            _id: 6,
+            name: 'Adventure',
+            active: false,
+        }
+    ]
+
     const [data, setData] = useState([])
     const[movies, setMovies] = useState([])
 
@@ -29,7 +63,7 @@ function Schedule() {
             </div>
             <div className="row">
                 <div className="filters">
-                    <p>Filters</p>
+                    
                 </div>
             </div>
             <div className="row mt-5">
