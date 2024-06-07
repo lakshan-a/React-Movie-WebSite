@@ -17,3 +17,21 @@
     transition: 1s;
 }
 
+.movieModal iframe{
+    max-width: 1280px;
+    max-height: 720px;
+}
+
+.movieModal .modalClose {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.movieModal.active {
+    opacity: 1;
+    visibility: visible;
+}
