@@ -1,10 +1,10 @@
 import React from 'react'
 import './movieDate.css';
 
-function MovieDate() {
+function MovieDate({ movie }) {
   return (
-    <div className="date active">
-        <h2>On 15th August</h2>
+    <div className={`date ${movie.active ? 'active' : undefined}`}>
+        <h2>{movie.date}</h2>
     </div>
   )
 }
