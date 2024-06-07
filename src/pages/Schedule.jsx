@@ -34,11 +34,12 @@ function Schedule() {
             _id: 6,
             name: 'Adventure',
             active: false,
-        }
-    ]
+        },
+    ];
 
-    const [data, setData] = useState([])
-    const[movies, setMovies] = useState([])
+    const [data, setData] = useState([]);
+    const [movies, setMovies] = useState([]);
+    const [filters, setFilters] = useState(filterList);
 
     const fetchData = () => {
         fetch('http://localhost:3000/data/movieData.json')
@@ -55,6 +56,10 @@ function Schedule() {
         setMovies(data);
     })
 
+    const handleFilterMovies = category => {
+        console.log(category);
+    };
+
   return (
     <section id='schedule' className='schedule'>
         <div className="container-fluid">
@@ -62,9 +67,19 @@ function Schedule() {
                 <h4 className='section-title'>Opening this week</h4>
             </div>
             <div className="row">
-                <div className="filters">
-                    
-                </div>
+                <ul className="filters">
+                    {
+                        filters.map(filter => (
+                            <li 
+                                key={filter._id} 
+                                className={`${filter.active ? 'active' : undefined}`}
+                                onClick={() => {
+                                    handleFilterMovies(filter.name);
+                                }}
+                            >{filter.name}</li>
+                        ))
+                    }
+                </ul>
             </div>
             <div className="row mt-5">
                 {
