@@ -1,12 +1,15 @@
+
+
+
 main {
     position: relative;
     width: 100%;
     min-height: 100vh;
     padding: 0 0 120px;
-    background: #000;
+    background: #000000;
 }
 
-/* main::before{
+main::before{
     position: absolute;
     content: '';
     left: 0;
@@ -15,7 +18,10 @@ main {
     height: 200px;
     background: #000;
     filter: blur(50px);
-} */
+}
+
+
+
 
 section {
     position: relative;
@@ -36,9 +42,8 @@ section h1 {
     color: #fff;
 }
 
-
 section .section-title {
-    position: absolute;
+    position: relative;
     color: #fff;
     font-weight: 500;
     font-size: 1.6rem;
