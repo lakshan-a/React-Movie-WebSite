@@ -1,5 +1,6 @@
 import React from 'react'
 import './playBtn.css';
+import Modal from './Modal';
 
 function PlayBtn({ movie }) {
   return (
@@ -10,6 +11,7 @@ function PlayBtn({ movie }) {
           </a>
           <p>Watch Trailer</p>
       </div>
+      {movie.active && <Modal movie={movie} />}
     </>
   )
 }
