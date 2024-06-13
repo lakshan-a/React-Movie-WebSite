@@ -10,6 +10,7 @@ function Main() {
         <Schedule/>
         <Trend/>
         <Blog/>
+        
     </main>
   )
 }
