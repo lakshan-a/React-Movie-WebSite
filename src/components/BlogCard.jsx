@@ -1,4 +1,5 @@
 import React from 'react'
+import './blogCard.css';
 
 function BlogCard({ blog }) {
   return (
