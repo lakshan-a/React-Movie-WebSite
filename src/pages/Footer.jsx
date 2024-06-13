@@ -22,7 +22,7 @@ function Footer() {
         <div className="footer-top">
             <div className="container">
                 <div className="row gy-4">
-                    <div className="col-lg5 col-md-12 footer-info">
+                    <div className="col-lg-5 col-md-12 footer-info">
                         <a href="/" className="logo d-flex align-items-center">
                             <span>CINEMA</span>
                         </a>

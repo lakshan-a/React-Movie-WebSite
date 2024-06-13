@@ -9,6 +9,7 @@
 
 .footer .footer-top {
     background: url('../images/footer-bg.jpeg') no-repeat left top;
+    /* background: url('../images/footer-bg.jpeg') no-repeat left top; */
     background-size: contain;
     border-top: 1px solid var(--primary);
     border-bottom: 1px solid var(--primary);
