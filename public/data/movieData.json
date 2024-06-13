@@ -1,6 +1,22 @@
 [
   {
     "_id": 1,
+    "titleImg": "../assets/movies/venom-3-the-last-dance-(1).png",
+    "bgImg": "../assets/movies/bg-venom.jpg",
+    "previewImg": "../assets/movies/venom.jpg",
+    "video": "https://www.youtube.com/embed/EYNRLcJjnQw",
+    "title": "Venom",
+    "year": "2024",
+    "date": "25th October ",
+    "ageLimit": "15+",
+    "length": "2h 07min",
+    "category": "Adventure",
+    "type": "coming",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
+    "active": true
+  },
+  {
+    "_id": 2,
     "titleImg": "../assets/movies/transformer-title.png",
     "bgImg": "../assets/movies/bg-transformer.jpg",
     "previewImg": "../assets/movies/transformer.jpg",
@@ -13,10 +29,10 @@
     "category": "Adventure",
     "type": "coming",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
-    "active": true
+    "active": false
   },
   {
-    "_id": 2,
+    "_id": 3,
     "titleImg": "../assets/movies/meg-2-title.png",
     "bgImg": "../assets/movies/bg-meg-2.jpeg",
     "previewImg": "../assets/movies/meg-2.jpg",
@@ -32,7 +48,7 @@
     "active": false
   },
   {
-    "_id": 3,
+    "_id": 4,
     "titleImg": "../assets/movies/fast-x-title.png",
     "bgImg": "../assets/movies/bg-fast-x.jpeg",
     "previewImg": "../assets/movies/fast-x.jpeg",
@@ -42,22 +58,6 @@
     "date": "04th October",
     "ageLimit": "12+",
     "length": "2h 21min",
-    "category": "Action",
-    "type": "coming",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
-    "active": false
-  },
-  {
-    "_id": 4,
-    "titleImg": "../assets/movies/jailer-title.png",
-    "bgImg": "../assets/movies/bg-jailer.jpeg",
-    "previewImg": "../assets/movies/jailer.jpg",
-    "video": "https://www.youtube.com/embed/lshAqOT7BB8",
-    "title": "Jailer",
-    "year": "2023",
-    "date": "09th November",
-    "ageLimit": "15+",
-    "length": "2h 48min",
     "category": "Action",
     "type": "coming",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",

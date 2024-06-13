@@ -42,12 +42,12 @@ function Banner() {
                         className={`bgImg ${movie.active ? 'active' : undefined}`} 
                     />
                     <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-12">
+                        <div className="row col-md-12">
+                            <div className="col-lg-6 ">
                                 <MovieContent movie={movie}/>
                             </div>
-                            <div className="col-lg-6 col-md-12">
-                                <MovieDate movie={movie}/>
+                            <div className="col-lg-6">
+                                {/* <MovieDate movie={movie}/> */}
                                 <PlayBtn movie={movie}/>
                             </div>
                         </div>

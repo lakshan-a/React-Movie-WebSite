@@ -1,6 +1,6 @@
 import React from 'react'
 import './movieContent.css';
-import titleImg from '../images/transformer-title.png';
+// import titleImg from '../images/transformer-title.png';
 import Button from './Button';
 
 
