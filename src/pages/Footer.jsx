@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css';
+import FooterNavItem from '../components/FooterNavItem';
 
 function Footer() {
     const usefullLinks = [
