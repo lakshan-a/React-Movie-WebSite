@@ -49,7 +49,7 @@ section .movie-card .content {
 section .movie-card .content h4 {
     position: relative;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 12px;
     font-weight: 500;
     margin-bottom: 20px;
     text-transform: uppercase;

@@ -26,13 +26,45 @@
     "date": "18th September",
     "ageLimit": "15+",
     "length": "2h 07min",
-    "category": "Adventure",
+    "category": "Action",
     "type": "coming",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
   },
   {
     "_id": 3,
+    "titleImg": "../assets/movies/kingdom_of_the_planet_of_the_apes-title.png",
+    "bgImg": "../assets/movies/bg-Kingdom-of-the-Planet-of-the-Apes.jpeg",
+    "previewImg": "../assets/movies/Kingdom-of-the-Planet-of-the-Apes.jpg",
+    "video": "https://www.youtube.com/embed/XtFI7SNtVpY",
+    "title": "Kingdom of the Planet of the Apes",
+    "year": "2024",
+    "date": "09th May",
+    "ageLimit": "12+",
+    "length": "2h 25min",
+    "category": "Adventure",
+    "type": "coming",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
+    "active": false
+  },
+  {
+    "_id": 4,
+    "titleImg": "../assets/movies/godzilla_x_kong-title.png",
+    "bgImg": "../assets/movies/bg-godzilla-x-kong.jpeg",
+    "previewImg": "../assets/movies/godzilla_x_kong.jpg",
+    "video": "https://www.youtube.com/embed/lV1OOlGwExM",
+    "title": "Godzilla x Kong",
+    "year": "2024",
+    "date": "08th March",
+    "ageLimit": "12+",
+    "length": "1h 55min",
+    "category": "Adventure",
+    "type": "coming",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
+    "active": false
+  },
+  {
+    "_id": 5,
     "titleImg": "../assets/movies/meg-2-title.png",
     "bgImg": "../assets/movies/bg-meg-2.jpeg",
     "previewImg": "../assets/movies/meg-2.jpg",
@@ -48,7 +80,7 @@
     "active": false
   },
   {
-    "_id": 4,
+    "_id": 6,
     "titleImg": "../assets/movies/fast-x-title.png",
     "bgImg": "../assets/movies/bg-fast-x.jpeg",
     "previewImg": "../assets/movies/fast-x.jpeg",
@@ -64,7 +96,7 @@
     "active": false
   },
   {
-    "_id": 5,
+    "_id": 7,
     "titleImg": "../assets/movies/beautiful-disaster-title.png",
     "bgImg": "../assets/movies/bg-beautiful-disaster.jpeg",
     "previewImg": "../assets/movies/beautiful-disaster.jpeg",
@@ -80,7 +112,7 @@
     "active": false
   },
   {
-    "_id": 6,
+    "_id": 8,
     "titleImg": "../assets/movies/ape-title.png",
     "bgImg": "../assets/movies/bg-ape.jpeg",
     "previewImg": "../assets/movies/ape.jpg",
@@ -96,7 +128,7 @@
     "active": false
   },
   {
-    "_id": 7,
+    "_id": 9,
     "titleImg": "../assets/movies/assassin-title.png",
     "bgImg": "../assets/movies/bg-assassin.jpg",
     "previewImg": "../assets/movies/assassin.jpg",
@@ -112,7 +144,7 @@
     "active": false
   },
   {
-    "_id": 8,
+    "_id": 10,
     "titleImg": "../assets/movies/no-hard-feelings-title.png",
     "bgImg": "../assets/movies/bg-no-hard-feelings.jpeg",
     "previewImg": "../assets/movies/no-hard-feelings.jpeg",
@@ -128,7 +160,7 @@
     "active": false
   },
   {
-    "_id": 9,
+    "_id": 11,
     "titleImg": "../assets/movies/peter-pan-and-wendy-title.png",
     "bgImg": "../assets/movies/bg-peter-pan-and-wendy.jpeg",
     "previewImg": "../assets/movies/peter-pan-and-wendy.jpg",
@@ -144,7 +176,7 @@
     "active": false
   },
   {
-    "_id": 10,
+    "_id": 12,
     "titleImg": "../assets/movies/heart-of-stone-title.png",
     "bgImg": "../assets/movies/bg-heart-of-stone.jpeg",
     "previewImg": "../assets/movies/heart-of-stone.jpg",
@@ -160,7 +192,7 @@
     "active": false
   },
   {
-    "_id": 11,
+    "_id": 13,
     "titleImg": "../assets/movies/the-little-mermaid-title.png",
     "bgImg": "../assets/movies/bg-little-mermaid.jpg",
     "previewImg": "../assets/movies/the-little-mermaid.jpeg",
@@ -176,7 +208,7 @@
     "active": false
   },
   {
-    "_id": 12,
+    "_id": 14,
     "titleImg": "../assets/movies/the-65-title.png",
     "bgImg": "../assets/movies/bg-65.jpeg",
     "previewImg": "../assets/movies/65.jpg",
@@ -192,7 +224,7 @@
     "active": false
   },
   {
-    "_id": 13,
+    "_id": 15,
     "titleImg": "../assets/movies/the-black-demon-title.png",
     "bgImg": "../assets/movies/bg-the-black-demon.jpeg",
     "previewImg": "../assets/movies/the-black-demon.jpg",
@@ -208,7 +240,7 @@
     "active": false
   },
   {
-    "_id": 14,
+    "_id": 16,
     "titleImg": "../assets/movies/the-tank-title.png",
     "bgImg": "../assets/movies/bg-the-tank.jpeg",
     "previewImg": "../assets/movies/the-tank.jpeg",
@@ -224,7 +256,7 @@
     "active": false
   },
   {
-    "_id": 15,
+    "_id": 17,
     "titleImg": "../assets/movies/the-covenant-title.png",
     "bgImg": "../assets/movies/bg-the-covenant.jpeg",
     "previewImg": "../assets/movies/the-covenant.jpg",
